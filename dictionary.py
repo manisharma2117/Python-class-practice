@@ -57,7 +57,7 @@ profile={
         'password':{"insta":"443433","facebook":"45645"}
     },
 }
-res=profile["aman]["password"]["insta"]
+res=profile["aman"]["password"]["insta"]
 print(res)
 
 marks=[56,78,89,78]
