@@ -8,3 +8,31 @@ for i in str1:
     c+=1
     print(c)
 
+#find even and odd number
+str1=[22,43.65,87]
+even=[]
+odd=[]
+for i in str1:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even numbers:", even)
+print("Odd numbers:", odd)
+
+#waf to reverse
+str1=["python programming"]
+str2=str1[0][::-1]
+print(str2)
+
+#swap first letter and last letter of string
+str1="python programming"   
+a=str1[0]
+b=str1[-1]
+str2=b+str1[1:-1]+a
+print(str2)
+
+
+
+
+ 
